@@ -10,10 +10,10 @@
 		EC82DDD51D6FCAE3005E9135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC82DDD41D6FCAE3005E9135 /* AppDelegate.m */; };
 		EC82DDD81D6FCAE3005E9135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC82DDD71D6FCAE3005E9135 /* main.m */; };
 		EC82DDDB1D6FCAE3005E9135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC82DDDA1D6FCAE3005E9135 /* ViewController.m */; };
-		EC82DDDD1D6FCAE3005E9135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC82DDDC1D6FCAE3005E9135 /* Assets.xcassets */; };
 		EC82DDE01D6FCAE3005E9135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC82DDDE1D6FCAE3005E9135 /* Main.storyboard */; };
 		EC82DDEB1D6FCAE3005E9135 /* Cleanflight_ConfiguratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC82DDEA1D6FCAE3005E9135 /* Cleanflight_ConfiguratorTests.m */; };
 		EC82DDF61D6FCAE3005E9135 /* Cleanflight_ConfiguratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC82DDF51D6FCAE3005E9135 /* Cleanflight_ConfiguratorUITests.m */; };
+		EC8B09C81D71027D0092DD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC82DDDC1D6FCAE3005E9135 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC82DDDD1D6FCAE3005E9135 /* Assets.xcassets in Resources */,
+				EC8B09C81D71027D0092DD04 /* Assets.xcassets in Resources */,
 				EC82DDE01D6FCAE3005E9135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +494,7 @@
 				EC82DDFC1D6FCAE3005E9135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC82DDFD1D6FCAE3005E9135 /* Build configuration list for PBXNativeTarget "Cleanflight ConfiguratorTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +503,7 @@
 				EC82DDFF1D6FCAE3005E9135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC82DE001D6FCAE3005E9135 /* Build configuration list for PBXNativeTarget "Cleanflight ConfiguratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +512,7 @@
 				EC82DE021D6FCAE3005E9135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
