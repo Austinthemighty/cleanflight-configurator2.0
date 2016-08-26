@@ -1,0 +1,1 @@
+C:\Users\Austin\OneDrive\source tree\cleanflight-configurator2.0\windows\CleanFlight-Configurator\CleanFlight-Configurator\CleanFlight-Configurator.csproj;x86
