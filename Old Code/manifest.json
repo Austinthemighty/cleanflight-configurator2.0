@@ -1,0 +1,49 @@
+{
+    "manifest_version": 2,
+    "minimum_chrome_version": "38",
+    "version": "1.2.3",
+    "author": "Hydra",
+    "name": "Cleanflight - Configurator",
+    "short_name": "cleanflight",
+    "description": "Crossplatform configuration tool for Cleanflight flight control system",
+
+    "offline_enabled": true,
+
+    "default_locale": "en",
+
+    "app": {
+        "background": {
+            "scripts": ["eventPage.js"],
+            "persistent": false
+        }
+    },
+
+    "sandbox": {
+    "pages": ["tabs/map.html"]
+    },
+         
+        "permissions": [
+        "https://www.google-analytics.com/",
+        "https://maps.googleapis.com/*",    
+        "https://*.github.com/",
+        "https://*.githubusercontent.com/",
+        "http://*.baseflight.net/",
+        "http://*.cleanflight.com/",
+        "https://*.amazonaws.com/",
+        "serial",
+        "usb",
+        "storage",
+        "fileSystem",
+        "fileSystem.write",
+        "fileSystem.retainEntries",
+        "notifications",
+        "alwaysOnTopWindows",
+        {"usbDevices": [
+            {"vendorId": 1155, "productId": 57105}
+        ]}
+    ],
+
+    "icons": {
+        "128": "images/icon_128.png"
+    }
+}
