@@ -240,11 +240,19 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" identifier="Clean-Flight" title="Clean-Flight" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="600" y="378" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <value key="minSize" type="size" width="480" height="270"/>
+                        <attributedString key="userComments">
+                            <fragment content="Clean-Flight">
+                                <attributes>
+                                    <font key="NSFont" metaFont="smallSystem"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
                     </window>
                     <connections>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
@@ -259,18 +267,24 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="648" height="544"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IGW-Fw-Fra" userLabel="Connect">
-                                <rect key="frame" x="323" y="52" width="92" height="32"/>
-                                <buttonCell key="cell" type="push" title="Connect" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="w5F-yA-lah">
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="gZH-h6-wtA">
+                                <rect key="frame" x="552" y="448" width="76" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="l1K-dq-3Qd"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="connect" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="4jd-54-CIR">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lrf-XP-uXH" userLabel="port">
-                                <rect key="frame" x="279" y="226" width="107" height="26"/>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lrf-XP-uXH" userLabel="port">
+                                <rect key="frame" x="440" y="500" width="107" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="kKC-Gz-O2f"/>
+                                </constraints>
                                 <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="LxK-9G-QtV" id="vHi-wS-PwZ" userLabel="port">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
@@ -283,8 +297,8 @@
                                     </menu>
                                 </popUpButtonCell>
                             </popUpButton>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hPF-OR-YMw" userLabel="buadRate">
-                                <rect key="frame" x="279" y="195" width="107" height="26"/>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hPF-OR-YMw" userLabel="buadRate">
+                                <rect key="frame" x="440" y="469" width="107" height="26"/>
                                 <popUpButtonCell key="cell" type="push" title="115200" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="pIU-BZ-6gj" id="s46-aO-tGN" userLabel="baudRate">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
@@ -324,30 +338,35 @@
                                     </menu>
                                 </popUpButtonCell>
                             </popUpButton>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ixl-FF-VlP">
-                                <rect key="frame" x="280" y="172" width="108" height="18"/>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="ixl-FF-VlP">
+                                <rect key="frame" x="438" y="447" width="108" height="18"/>
                                 <buttonCell key="cell" type="radio" title="Auto-Connect" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ZDl-c4-ksJ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gkN-2v-rcV">
-                                <rect key="frame" x="391" y="198" width="52" height="52"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="alJ-1F-OWl">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                    <connections>
-                                        <binding destination="J8w-nP-u99" name="image" keyPath="values" id="cjT-0v-6Rl"/>
-                                    </connections>
-                                </buttonCell>
-                            </button>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="lrf-XP-uXH" firstAttribute="top" secondItem="gZH-h6-wtA" secondAttribute="top" id="35g-6X-l4I"/>
+                            <constraint firstAttribute="trailing" secondItem="gZH-h6-wtA" secondAttribute="trailing" constant="20" symbolic="YES" id="A4i-Ih-X22"/>
+                            <constraint firstItem="lrf-XP-uXH" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="HE5-rW-9Jh"/>
+                            <constraint firstItem="hPF-OR-YMw" firstAttribute="top" secondItem="lrf-XP-uXH" secondAttribute="bottom" constant="10" symbolic="YES" id="QD3-8z-6uW"/>
+                            <constraint firstItem="gZH-h6-wtA" firstAttribute="leading" secondItem="lrf-XP-uXH" secondAttribute="trailing" constant="8" symbolic="YES" id="SQs-FR-95F"/>
+                            <constraint firstItem="gZH-h6-wtA" firstAttribute="leading" secondItem="hPF-OR-YMw" secondAttribute="trailing" constant="8" symbolic="YES" id="Xzg-P4-9IP"/>
+                            <constraint firstItem="gZH-h6-wtA" firstAttribute="leading" secondItem="ixl-FF-VlP" secondAttribute="trailing" constant="8" symbolic="YES" id="f2f-Hc-Dkm"/>
+                            <constraint firstItem="lrf-XP-uXH" firstAttribute="leading" secondItem="hPF-OR-YMw" secondAttribute="leading" id="osD-JY-zxK"/>
+                            <constraint firstItem="ixl-FF-VlP" firstAttribute="baseline" secondItem="gZH-h6-wtA" secondAttribute="baseline" id="thA-9s-Lgt"/>
+                            <constraint firstItem="ixl-FF-VlP" firstAttribute="top" secondItem="hPF-OR-YMw" secondAttribute="bottom" constant="8" id="ySZ-XL-Zdd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <userDefaultsController representsSharedInstance="YES" id="J8w-nP-u99"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="connect" width="24" height="24"/>
+    </resources>
 </document>
