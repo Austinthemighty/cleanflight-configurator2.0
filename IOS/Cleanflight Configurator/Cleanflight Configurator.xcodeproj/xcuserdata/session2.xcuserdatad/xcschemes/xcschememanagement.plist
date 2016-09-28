@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CleanFlight.xcscheme</key>
+		<key>Cleanflight Configurator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EC1A87E11D9603D60006463F</key>
+		<key>EC2100261D9B4B13005DEA37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC1A87FD1D9603D60006463F</key>
+		<key>EC21003C1D9B4B13005DEA37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC1A88081D9603D60006463F</key>
+		<key>EC2100471D9B4B13005DEA37</key>
 		<dict>
 			<key>primary</key>
 			<true/>

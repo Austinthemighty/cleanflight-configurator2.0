@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC1A87E11D9603D60006463F"
-               BuildableName = "CleanFlight.app"
-               BlueprintName = "CleanFlight"
-               ReferencedContainer = "container:CleanFlight.xcodeproj">
+               BlueprintIdentifier = "EC2100261D9B4B13005DEA37"
+               BuildableName = "Cleanflight Configurator.app"
+               BlueprintName = "Cleanflight Configurator"
+               ReferencedContainer = "container:Cleanflight Configurator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC1A87FD1D9603D60006463F"
-               BuildableName = "CleanFlightTests.xctest"
-               BlueprintName = "CleanFlightTests"
-               ReferencedContainer = "container:CleanFlight.xcodeproj">
+               BlueprintIdentifier = "EC21003C1D9B4B13005DEA37"
+               BuildableName = "Cleanflight ConfiguratorTests.xctest"
+               BlueprintName = "Cleanflight ConfiguratorTests"
+               ReferencedContainer = "container:Cleanflight Configurator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC1A88081D9603D60006463F"
-               BuildableName = "CleanFlightUITests.xctest"
-               BlueprintName = "CleanFlightUITests"
-               ReferencedContainer = "container:CleanFlight.xcodeproj">
+               BlueprintIdentifier = "EC2100471D9B4B13005DEA37"
+               BuildableName = "Cleanflight ConfiguratorUITests.xctest"
+               BlueprintName = "Cleanflight ConfiguratorUITests"
+               ReferencedContainer = "container:Cleanflight Configurator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC1A87E11D9603D60006463F"
-            BuildableName = "CleanFlight.app"
-            BlueprintName = "CleanFlight"
-            ReferencedContainer = "container:CleanFlight.xcodeproj">
+            BlueprintIdentifier = "EC2100261D9B4B13005DEA37"
+            BuildableName = "Cleanflight Configurator.app"
+            BlueprintName = "Cleanflight Configurator"
+            ReferencedContainer = "container:Cleanflight Configurator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC1A87E11D9603D60006463F"
-            BuildableName = "CleanFlight.app"
-            BlueprintName = "CleanFlight"
-            ReferencedContainer = "container:CleanFlight.xcodeproj">
+            BlueprintIdentifier = "EC2100261D9B4B13005DEA37"
+            BuildableName = "Cleanflight Configurator.app"
+            BlueprintName = "Cleanflight Configurator"
+            ReferencedContainer = "container:Cleanflight Configurator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC1A87E11D9603D60006463F"
-            BuildableName = "CleanFlight.app"
-            BlueprintName = "CleanFlight"
-            ReferencedContainer = "container:CleanFlight.xcodeproj">
+            BlueprintIdentifier = "EC2100261D9B4B13005DEA37"
+            BuildableName = "Cleanflight Configurator.app"
+            BlueprintName = "Cleanflight Configurator"
+            ReferencedContainer = "container:Cleanflight Configurator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
